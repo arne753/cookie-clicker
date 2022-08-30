@@ -6,9 +6,13 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 import game.constants as const
-from game.formatting_text import (black_format_text, cyan_format_text,
-                                  magenta_format_text, red_format_text,
-                                  yellow_format_text)
+from game.formatting_text import (
+    black_format_text,
+    cyan_format_text,
+    magenta_format_text,
+    red_format_text,
+    yellow_format_text,
+)
 
 
 class Gamefunctions(webdriver.Chrome):
