@@ -355,13 +355,9 @@ class Gamefunctions(webdriver.Chrome):
                 self.gc_loop = 0
                 break
             check_golden(
-                click,
-                big_cookie,
-                check_golden,
                 load_json,
                 dump_json,
                 yellow_format_text,
-                black_format_text,
             )
 
     # get a list of all the upgrades and their correspondending prices
