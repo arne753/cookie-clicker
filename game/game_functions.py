@@ -278,13 +278,9 @@ class Gamefunctions(webdriver.Chrome):
         except:
             print(black_format_text("big cookie click intercepted"))
             check_golden(
-                click,
-                big_cookie,
-                check_golden,
                 load_json,
                 dump_json,
                 yellow_format_text,
-                black_format_text,
             )
             big_cookie.click()
 
