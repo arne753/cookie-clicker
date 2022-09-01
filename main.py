@@ -1,6 +1,3 @@
-# self made cookie clicker bot project - took 7 days
-
-# todo: write some code to make the program click the cookie x times based on the current cookie amount, so we arent buying low upgrades
 import time
 
 from selenium.webdriver.common.by import By
