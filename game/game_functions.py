@@ -43,7 +43,7 @@ class Gamefunctions(webdriver.Chrome):
     # load stats from json file
     def load_json(self) -> dict:
         with open(
-            r"C:\Users\arneb\vscode\python\projects\cookie_clicker\stats.json", "r"
+            r"C:\Users\arneb\vscode\python\projects\cookie_clicker_copy\stats.json", "r"
         ) as file:
             dict_stats = json.load(file)
         return dict_stats
@@ -51,7 +51,7 @@ class Gamefunctions(webdriver.Chrome):
     # put stats back to the json file
     def dump_json(self, dict_stats) -> None:
         with open(
-            r"C:\Users\arneb\vscode\python\projects\cookie_clicker\stats.json", "w"
+            r"C:\Users\arneb\vscode\python\projects\cookie_clicker_copy\stats.json", "w"
         ) as file:
             json.dump(dict_stats, indent=4, fp=file)
 
